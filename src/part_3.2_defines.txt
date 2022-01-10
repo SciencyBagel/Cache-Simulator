@@ -1,0 +1,32 @@
+//===========================================
+//CACHE_SIZE = 16KB
+
+#define BLOCK_SIZE 64        /* Cache block size (or cache line size) in bytes \\
+                                 (must be power of 2). 4 Bytes = 1 Word */
+#define CACHE_SIZE 16384     /* Cache capacity in bytes (must be power of 2)*/
+#define NUM_BLOCKS (CACHE_SIZE / BLOCK_SIZE) //512 if all values are the same
+int WAY_SIZE = 1;         /* Associativity; 1-way = direct-mapped. Changed by arguments */
+int NUM_SETS = 0;
+//===========================================
+
+//===========================================
+//CACHE_SIZE = 32KB
+
+#define BLOCK_SIZE 64        /* Cache block size (or cache line size) in bytes \\
+                                 (must be power of 2). 4 Bytes = 1 Word */
+#define CACHE_SIZE 32768     /* Cache capacity in bytes (must be power of 2)*/
+#define NUM_BLOCKS (CACHE_SIZE / BLOCK_SIZE) //512 if all values are the same
+int WAY_SIZE = 1;         /* Associativity; 1-way = direct-mapped. Changed by arguments */
+int NUM_SETS = 0;
+//===========================================
+
+//===========================================
+//CACHE_SIZE = 64KB
+
+#define BLOCK_SIZE 64        /* Cache block size (or cache line size) in bytes \\
+                                 (must be power of 2). 4 Bytes = 1 Word */
+#define CACHE_SIZE 65536     /* Cache capacity in bytes (must be power of 2)*/
+#define NUM_BLOCKS (CACHE_SIZE / BLOCK_SIZE) //512 if all values are the same
+int WAY_SIZE = 1;         /* Associativity; 1-way = direct-mapped. Changed by arguments */
+int NUM_SETS = 0;
+//===========================================
